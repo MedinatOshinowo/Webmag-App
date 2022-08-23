@@ -12,9 +12,6 @@ main {
 
 .header {
   border: 2px solid rgb(39, 38, 38);
-}
-
-#top {
   display: flex;
   justify-content: space-around;
   padding-left: 1rem;
