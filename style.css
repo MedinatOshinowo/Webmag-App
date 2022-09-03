@@ -206,26 +206,22 @@ padding:5px;
         width: 100%;
         display: flex;
   }
-  .container-one {
-    grid-template-columns: 1fr;
-    width: 100%;
-    grid-template-rows: 300px 300px;
-  }
-  .container-two {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px;
-  }
-  .container-three,
-  .container-four {
-    height: 25rem;
-  }
-  .flex-frontend,
-  .flex-backend {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    gap: 2rem;
-    padding: 1rem;
-  }
+  .container-one{
+        grid-template-columns: 1fr;
+        width: 100%;
+        grid-template-rows: 300px 300px;
+    }
+    .container-one img, .container-two img{
+         width: 80%;
+     }
+    .flex-frontend, .flex-backend, .container-two{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+    .container-three, .container-four{
+        height:fit-content;
+    }
 }
  
  /* responsiveness for phones */
