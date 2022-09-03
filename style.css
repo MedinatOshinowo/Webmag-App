@@ -60,6 +60,7 @@ input {
   border-radius: 40px;
   border: none;
   outline: none;
+  background-color: #EC4D37;
 }
 
 i {
@@ -90,20 +91,24 @@ img {
 }
 
 #textarea {
-  float: left;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 10px;
+      display: flex;
+    margin-bottom: 20px;
+    padding: 20px 0; 
 }
 
-#textarea button:hover {
-  background-color: rgba(255, 255, 255, 0.846);
+button{
+    background-color: #ec4c37;
+}
+#textarea button:hover{
+    transition: 0.4s ease-in-out;
+    background-color: #fefefef7;
+}
+
+h3,h2{
+    color:white;
 }
 
 h2 {
-  color: white;
   margin-top: 2rem;
   padding: 1rem;
 }
@@ -152,10 +157,11 @@ h4 {
 #h3 {
   text-align: center;
   padding: 1rem;
+  color: #ec4c37;
 }
 
 div {
-  color: crimson;
+  color: #ec4c37;;
 }
 
 a {
@@ -184,9 +190,10 @@ a {
   list-style-type: none;
 }
 
-#rel {
-  text-decoration: underline rgb(97, 94, 94);
+.fa-brands{
+padding:5px;
 }
+
 
 @media (max-width: 768px) {
   .nav-links {
@@ -195,10 +202,9 @@ a {
   .search-box {
     display: flex;
   }
-  input {
-    width: 5vw;
-    height: 2rem;
-    display: flex;
+  input{
+        width: 100%;
+        display: flex;
   }
   .container-one {
     grid-template-columns: 1fr;
@@ -211,13 +217,13 @@ a {
   }
   .container-three,
   .container-four {
-    height: 20rem;
+    height: 25rem;
   }
   .flex-frontend,
   .flex-backend {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    gap: 3rem;
+    gap: 2rem;
     padding: 1rem;
   }
 }
