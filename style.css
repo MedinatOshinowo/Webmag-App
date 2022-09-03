@@ -170,7 +170,7 @@ a {
 
 .footer {
   background-color: rgb(44, 41, 41);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   font-size: 20px;
   font-weight: bold;
   display: flex;
@@ -194,7 +194,7 @@ a {
 padding:5px;
 }
 
-
+/*responsiveness for large mobile screen*/
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -227,3 +227,18 @@ padding:5px;
     padding: 1rem;
   }
 }
+ 
+ /* responsiveness for phones */
+ @media (max-width:320px){
+    .container-one img, .container-two img{
+         width: 100%;
+     }
+    .flex-frontend, .flex-backend, .container-two{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+    .container-three, .container-four{
+        height:fit-content;
+    }
+ }
