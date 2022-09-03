@@ -63,7 +63,7 @@ input {
   background-color: #EC4D37;
 }
 
-i {
+.fa-solid{
   position: relative;
   left: 25px;
   color: black;
@@ -110,7 +110,7 @@ h3,h2{
 
 h2 {
   margin-top: 2rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .container-two {
