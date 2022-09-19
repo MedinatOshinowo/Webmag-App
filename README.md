@@ -2,7 +2,7 @@
 - 👀 I’m interested in learning, building projects and reading codes
 - 🌱 I’m currently learning JavaScript and Tailwind Css
 - 💞️ I’m looking to collaborate on projects
-- 📫 How to reach me twitter @Medinattt_
+- 📫 How to reach me On twitter @Medinattt_
 
 <!---
 MedinatOshinowo/MedinatOshinowo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
